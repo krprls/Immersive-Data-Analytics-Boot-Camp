@@ -1,18 +1,38 @@
-#dictionariesfor records employee, pay rate, time,ArithmeticError etc.,
-#recordsPay = {}
+#Programme for employee pay
 
-#Ziplist
-#input excel as pd
-#read the table and use function
-
-#function toc caliculate the pay
+# function to caliculate the pay rate
 
 def emplpay(payRate, hoursWorked):
     if hoursWorked > 40:
         pay40 = payRate * 40
         extraPay = (1.5 * payRate) * (hoursWorked - 40)
         totalpay = pay40 + extraPay
-        otherwise
+    else:
         totalPay = payRate * hoursWorked
-      print out name, salary#
-    
+        
+    return totalPay
+
+#program for excute 
+
+name = input("please enter your name: ")
+print(name)
+
+ID = input("Please enter your ID: ")
+print(ID)
+
+hoursWorked = input("hoursWorked: ")
+print(hoursWorked)
+
+payRate = input("payRate: ")
+print(payRate)
+
+totalpay = emplpay(float(payRate), int(hoursWorked))
+
+print('your name: ' + name + 'ID#' + ID + 'pay' + str(totalpay))
+
+
+
+
+
+
+
