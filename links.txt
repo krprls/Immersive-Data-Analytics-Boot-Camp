@@ -1,0 +1,7 @@
+https://codereview.stackexchange.com/questions/132074/finding-the-multiple-of-3-and-5
+https://apps.worldwritable.com/tutorials/chatbot/
+https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#split(java.lang.String)
+
+https://groklearning.com/
+
+https://www.daniweb.com/programming/software-development/code/380743/eliza-aka-therapist-facelift#
